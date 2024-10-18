@@ -98,12 +98,16 @@ li > a:hover {
 .container-dos h1 {
   margin-left: 100px;
   margin-right: 100px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
 
 .container-dos > .img-row {
   display: flex;
   margin-left: 100px;
   margin-right: 100px;
+  margin-bottom: 100px;
   justify-content: space-evenly;
 }
 
@@ -122,4 +126,69 @@ li > a:hover {
 
 .subtext {
   text-align: center;
+  color: #7d89a0d6;
+}
+
+/* Quote Section */
+
+.container-tres {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  margin: 100px 150px 0px 150px;
+}
+.author-quote {
+  font-weight: bold;
+  text-align: end;
+  margin: 0px 150px 100px 150px;
+}
+
+/* Call to action section  */
+.call-box {
+  background-color: #3882f6;
+  margin: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.call-left {
+  flex-basis: 60%;
+}
+
+h3 {
+  margin: 50px 0 0 50px;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.do-it {
+  margin: 0px 0 50px 50px;
+  color: #e5e7eb;
+  font-weight: 100;
+}
+
+.call-box .call-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 14px;
+  padding: 10px 40px;
+  border-radius: 12px;
+  justify-items: start;
+  border: 2px solid #f9faf8;
+}
+
+/* Footer  */
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
