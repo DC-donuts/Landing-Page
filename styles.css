@@ -102,17 +102,24 @@ li > a:hover {
 
 .container-dos > .img-row {
   display: flex;
-  margin: 0 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-evenly;
 }
 
 .box-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
+  flex-basis: 150px;
+  height: 225px;
 }
 
 .box {
   outline: solid 4px #3882f6;
   border-radius: 20px;
+  flex: 1;
+}
+
+.subtext {
+  text-align: center;
 }
