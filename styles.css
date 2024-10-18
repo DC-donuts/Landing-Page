@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 100px; /* This margin for all the inside content */
+  margin: 0 100px; /* This SIDE margin for all the inside content */
 }
 
 .top-header > .logo {
@@ -47,7 +47,7 @@ li > a:hover {
 
 .lower-header {
   display: flex;
-  margin: 100px 100px; /* This margin for all the inside content */
+  margin: 100px 100px; /* This (ONLY SIDE)  margin for all the inside content */
 }
 
 .left,
@@ -95,13 +95,24 @@ li > a:hover {
   align-items: center;
 }
 
+.container-dos h1 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .container-dos > .img-row {
   display: flex;
-  justify-content: space-evenly;
+  margin: 0 100px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .box {
-  outline: solid 2px #3882f6;
-  width: 600x;
-  height: 600pxß;
+  outline: solid 4px #3882f6;
+  border-radius: 20px;
 }
